@@ -1,8 +1,19 @@
-# React + Vite
+## Wordler Game Implementation with React.js
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This game is designed in a way that you have to guess a 5-word number with just 6 chances; If you
+could guess the word before loosing your chances, you win and if not, you loose and in both scenarios,
+the game will be reset.
 
-Currently, two official plugins are available:
+## Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Install via NPM package:
+
+```
+npm install
+```
+
+## Run
+
+```
+npm run dev
+```
